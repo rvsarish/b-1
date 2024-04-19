@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #board {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 300px;
+    margin-top: 10%;
+
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 100px;
+    background-color: #eee;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  #message {
+    font-size: 24px;
+    margin: 20px 0;
+    color: aqua;
+  }
+  
+  #reset {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

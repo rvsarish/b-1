@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  
+  background-color: #c85757;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+#app {
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#searchInput {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background: rgba(250, 128, 114, 0.748);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+#searchButton:hover {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+#movieDetails {
+  text-align: left;
+  color: black;
+}
+
+#movieTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#moviePoster {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#movieOverview,
+#movieRating,
+#moviePopularity {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
